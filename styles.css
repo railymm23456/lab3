@@ -1,0 +1,121 @@
+
+#title {
+  background-color: #ff4c68;
+}
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15% 7% !important;
+}
+
+.navbar {
+  padding-bottom: 4.5rem !important;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    transform: none;
+    width: 80%;
+    margin-top: 20px;
+  }
+}
+
+#features {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.icon {
+  color: #ee8172;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+.feature-box h3 {
+  padding-top: 30px;
+}
+
+#testimonials {
+  background-color: #ee8172;
+  padding: 3rem 0;
+}
+
+#testimonials em {
+  color: white;
+}
+
+.dog-photos {
+  width: 200px;
+}
+
+
+
+#press {
+  background-color: #ee8172;
+}
+
+
+
+#pricing p {
+  color: gray;
+}
+
+.card .btn {
+  margin: 0 25px !;
+}
+
+.card-header {
+  background-color: #f9ad8d !important;
+}
+
+.card-photo {
+  width: 100px;
+}
+
+.card-wrapper {
+  margin-top: 3rem !important;
+}
+
+#cta {
+  background-color: #ff4c68;
+}
+
+#cta .btn {
+  margin-bottom: 10rem !important;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center !important;
+  padding-bottom: 3% !important;
+}
+.media {
+  width: 15% !important;
+  margin: 20px 20px 30px !important;
+}
